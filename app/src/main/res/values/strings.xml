@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Digimaster</string>
+    <string name="teks">teks</string>
+    <string name="baru">ini adalah beberapa katadasdasdsadsadsadsadsadsadsadsa </string>
+    <string name="paragraf">teksasldjaljsdlksjakldjklajdalshdklsahkldashklsdasdasdasdasdsadhasldhajkshdk</string>
+    <string name="tambah">Tambah</string>
+
+    <string-array name="digimon_array">
+        <item>Jogres</item>
+        <item>Agumon</item>
+        <item>Galantmon</item>
+        <item>V-Mon</item>
+        <item>Renamon</item>
+        <item>Omnimon</item>
+        <item>Arimon</item>
+        <item>Ripkimon</item>
+        <item>Remon</item>
+        <item>Danimon</item>
+        <item>Anggimon</item>
+        <item>Hyuniechanmon</item>
+        <item>Allenmon</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

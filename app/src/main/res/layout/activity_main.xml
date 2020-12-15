@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teks1"
+        android:layout_marginTop="10dp"
+        android:text="@string/paragraf"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/baru"
+        android:textAlignment="center"
+        android:textColor="@color/warnabaru"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_satu"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_below="@id/teks2"
+        android:layout_marginTop="30dp"
+        android:background="@color/warnabaru"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/warnabaru2" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_satu"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="20dp"
+        android:text="1"
+        android:inputType=""
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Et"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/warnabaru2"
+        android:text="@string/tambah" />
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_tambah"
+        android:layout_marginHorizontal="100dp"
+        android:text="IMPLICIT INTENT" />
+
+    <Button
+        android:id="@+id/btnListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pindah"
+        android:layout_marginHorizontal="100dp"
+        android:text="LIST VIEW" />
+</RelativeLayout>
+</ScrollView>
